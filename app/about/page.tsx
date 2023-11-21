@@ -1,5 +1,5 @@
 import React from "react";
-import { client } from "../../utils/client/sanity";
+// import { client } from "../../utils/client/sanity";
 // import Movies from "../components/views/movies";
 
 const About = async () => {
@@ -15,12 +15,12 @@ const About = async () => {
 
 export default About;
 
-async function getData() {
-  const response = await client.fetch(`*[_type == 'movie']`);
+// async function getData() {
+//   const response = await client.fetch(`*[_type == 'movie']`);
 
-  if (!response) {
-    throw new Error("Failed to fetch data");
-  }
+//   if (!response) {
+//     throw new Error("Failed to fetch data");
+//   }
 
-  return response;
-}
+//   return response;
+// }
