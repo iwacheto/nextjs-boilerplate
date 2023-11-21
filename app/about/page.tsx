@@ -1,14 +1,14 @@
 import React from "react";
 import { client } from "../../utils/client/sanity";
-import Movies from "../components/views/movies";
+// import Movies from "../components/views/movies";
 
 const About = async () => {
-  const data = await getData();
+  // const data = await getData();
 
   return (
     <section>
       About
-      <Movies data={data} />
+      {/* <Movies data={data} /> */}
     </section>
   );
 };
